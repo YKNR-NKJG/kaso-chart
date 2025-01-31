@@ -1,0 +1,33 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub WebApp Tester</title>
+</head>
+<body>
+  <h1>Hello World!</h1>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+      <title>GitHub WebApp Tester</title>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <!--<iframe src="https://script.google.com/macros/s/AKfycbyTirZOrIbA1QtA5-zQkerYqHMwj9TqzIDx_lfrHyLvQnakvuYx7dsCZYcbgP2IURf6bQ/exec">
+    <iframe src="https://script.google.com/a/domaindummy/macros/s/AKfycbya_-2JQytrA7B7lBuhNFqWiAnztIOjxK1KXioa1_I_zqGpHGQgAz_qbOE6Ju12WF5QSA/exec">-->
+    <iframe src="abc.html"></iframe>
+    <script>
+      $(document).ready(function(){
+        $("iframe").on("load", function(){
+          $(this).contents().find("#params").css("display", "none");
+        });
+      });
+    </script>
+  </body>
+</html>
