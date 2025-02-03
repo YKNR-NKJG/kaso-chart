@@ -1,2 +1,9 @@
-仮想路線図のURL簡略化のためこちらにiframeで疑似的に移植<br>
+仮想路線図のURL簡略化のためこちらにiframeで疑似的に移植↓
+<br>
 https://chart.ka-so.infy.uk
+<br><br>
+GASのバグで2回目の遷移で画面が真っ白になるため、その際はリロードが必要になる
+<br>
+URLの簡潔さよりも使用環境の快適さが重要であればこちら↓
+<br>
+https://script.google.com/macros/s/AKfycbyTirZOrIbA1QtA5-zQkerYqHMwj9TqzIDx_lfrHyLvQnakvuYx7dsCZYcbgP2IURf6bQ/exec
